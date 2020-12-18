@@ -89,7 +89,6 @@ def getContentNews(news_url):
     publishAt = publishAtTag.text
 
     saveNewsInCSV(headline, body, byline, publishAt)
-    # iterate through the reault and write the each into the new file
 
     return {'body': body,
             'headline': headline
